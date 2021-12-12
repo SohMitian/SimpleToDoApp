@@ -11,6 +11,10 @@
 		CFA8ABFB2766116800B8C576 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8ABFA2766116800B8C576 /* ContentView.swift */; };
 		CFA8ABFD2766116900B8C576 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA8ABFC2766116900B8C576 /* Assets.xcassets */; };
 		CFA8AC002766116900B8C576 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFA8ABFF2766116900B8C576 /* Preview Assets.xcassets */; };
+		CFA8AC072766176F00B8C576 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8AC062766176F00B8C576 /* ListRow.swift */; };
+		CFA8AC0927661C6800B8C576 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8AC0827661C6800B8C576 /* UserData.swift */; };
+		CFA8AC0B27661D4400B8C576 /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8AC0A27661D4400B8C576 /* UserTask.swift */; };
+		CFA8AC0D276630CA00B8C576 /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA8AC0C276630C900B8C576 /* Draft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CFA8ABFA2766116800B8C576 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CFA8ABFC2766116900B8C576 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFA8ABFF2766116900B8C576 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CFA8AC062766176F00B8C576 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		CFA8AC0827661C6800B8C576 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CFA8AC0A27661D4400B8C576 /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
+		CFA8AC0C276630C900B8C576 /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CFA8ABF82766116800B8C576 /* SimpleToDoAppApp.swift */,
 				CFA8ABFA2766116800B8C576 /* ContentView.swift */,
+				CFA8AC0C276630C900B8C576 /* Draft.swift */,
+				CFA8AC0A27661D4400B8C576 /* UserTask.swift */,
+				CFA8AC0827661C6800B8C576 /* UserData.swift */,
+				CFA8AC062766176F00B8C576 /* ListRow.swift */,
 				CFA8ABFC2766116900B8C576 /* Assets.xcassets */,
 				CFA8ABFE2766116900B8C576 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFA8AC0B27661D4400B8C576 /* UserTask.swift in Sources */,
 				CFA8ABFB2766116800B8C576 /* ContentView.swift in Sources */,
 				CFA8ABF92766116800B8C576 /* SimpleToDoAppApp.swift in Sources */,
+				CFA8AC0D276630CA00B8C576 /* Draft.swift in Sources */,
+				CFA8AC0927661C6800B8C576 /* UserData.swift in Sources */,
+				CFA8AC072766176F00B8C576 /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
